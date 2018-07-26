@@ -1,0 +1,339 @@
+div{
+
+position: relative;
+
+border-style: solid;
+
+border-color:black;
+
+width: 360px;
+
+height: 460px;
+
+left: 200px;
+
+top: 100px;
+
+}
+
+ 
+
+button.plus{
+
+                position:absolute;
+
+                top: 150px;
+
+                right: 10px;
+
+                background-color: lightgrey;
+
+               
+
+}
+
+ 
+
+button.multi{
+
+                position: absolute;
+
+                top: 300px;
+
+                right: 10px;
+
+                padding-left: 28px;
+
+                background-color: lightgrey;      
+
+}
+
+ 
+
+button.minus{
+
+                position: absolute;
+
+                top: 225;
+
+                right: 10px;
+
+                background-color: lightgrey;      
+
+}
+
+ 
+
+ 
+
+button.div{
+
+                position: absolute;
+
+                top: 375px;
+
+                right:10px;
+
+                background-color: lightgrey;
+
+}
+
+ 
+
+button.equal{
+
+                position: absolute;
+
+                top: 375px;
+
+                right: 76px;
+
+                padding-left: 17px;
+
+                padding-right: 16px;
+
+                background-color: lightgrey;
+
+               
+
+}
+
+ 
+
+button.negplus{
+
+                position: absolute;
+
+                top: 375px;
+
+                right: 145px;
+
+                padding-left: 26px;
+
+                padding-right: 26px;
+
+                background-color: lightgrey;
+
+ 
+
+}
+
+ 
+
+button.decimal{
+
+                position: absolute;
+
+                top: 375px;
+
+                right: 215px;
+
+                background-color: lightgrey;
+
+ 
+
+}
+
+ 
+
+
+ 
+
+button.zero{
+
+                position: absolute;
+
+                top: 150px;
+
+                right: 280px;
+
+                padding-top: 63px;
+
+                padding-bottom: 78px;
+
+                background-color: orange;
+
+               
+
+}
+
+ 
+
+button.one{
+
+                position: absolute;
+
+                top: 150px;
+
+                right:214px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.four{
+
+                position: absolute;
+
+                top: 225px;
+
+                right: 214px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.seven{
+
+                position: absolute;
+
+                top: 300px;
+
+                right: 214px;
+
+                background-color: darkgrey;
+
+}
+
+button.two{
+
+                position: absolute;
+
+                top: 150px;
+
+                right: 145px;
+
+                background-color: darkgrey;
+
+}
+
+ 
+
+button.three{
+
+                position: absolute;
+
+                top: 150px;
+
+                right: 76px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.five{
+
+                position: absolute;
+
+                top: 225px;
+
+                right: 145px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.six{
+
+                position: absolute;
+
+                top: 225px;
+
+                right: 76px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.eight{
+
+                position: absolute;
+
+                top: 300px;
+
+                right: 145px;
+
+                background-color: darkgrey;
+
+               
+
+}
+
+ 
+
+button.nine{
+
+                position: absolute;
+
+                top: 300px;
+
+                right: 76px;
+
+                background-color: darkgrey;
+
+}
+button.clearz{
+
+                position: absolute;
+
+                top: 297px;
+
+                right: 280px;
+
+                padding-top: 34px;
+
+                padding-bottom: 34px;
+
+                background-color: orange;
+
+               
+
+}
+
+button.sqrt{
+
+                position: absolute;
+
+                background-color: lightgrey;
+
+                top: 375px;
+
+                left: 12px;
+
+                width: 70px;
+
+}
+
+ 
+
+ 
+
+ 
+
+button{
+
+                padding: 30px;
+
+ 
+
+}

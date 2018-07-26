@@ -1,0 +1,202 @@
+
+<html>
+	Kai Lockwood's calculator project
+	  <head>
+      <link rel="stylesheet"  type="text/css" href="calculator.css"/>  
+	  <title>Calculator Project</title>
+	  </head>
+	   <script type="text/javascript">
+		 function plus(){
+			var input1 = parseFloat(document.getElementById("in1").value);
+			var input2 = parseFloat(document.getElementById("in2").value);
+			var result = input1+input2;
+			var n = result.toFixed(4);
+			document.getElementById("in1").value = n;
+		 }
+		 function minus(){
+			 var input1 = document.getElementById("in1").value;
+			 var input2 = document.getElementById("in2").value;
+			 var result = input1-input2;
+			 var n = result.toFixed(4);
+			 document.getElementById("in1").value = n;
+		 }
+		 function one(){
+			if ( toggle == 1){
+				document.getElementById("in1").value=document.getElementById("in1").value+1;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+1;
+			}
+		 }
+		 function two(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+2;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+2;
+			}
+		 }
+		 function three(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+3;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+3;
+			}
+		 }
+		 function four(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+4;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+4;
+			}
+		 }
+		 function five(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+5;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+5;
+			}
+		 }
+		 function six(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+6;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+6;
+			}
+		 }
+		 function seven(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+7;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+7;
+			}
+		 }
+		 function eight(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+8;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+8;
+			}
+		 }
+		 function nine(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+9;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+9;
+			}
+		 }
+		 function zero(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+0;
+			}
+			if (toggle ==0){
+				document.getElementById("in2").value=document.getElementById("in2").value+0;
+			}
+		 }
+		 function clearz(){
+				document.getElementById("in1").value = " ";
+				document.getElementById("in2").value = " ";
+		 }
+		 function decimal(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value+".";
+			}else {
+				document.getElementById("in2").value=document.getElementById("in2").value+".";
+			}
+			}
+			
+		 function multi(){
+			var input1 = document.getElementById("in1").value;
+			var input2 = document.getElementById("in2").value;
+			var result = input1*input2;
+			var n = result.toFixed(4);
+			document.getElementById("in1").value = n;
+		 }
+		 function div(){
+			var input1 = document.getElementById("in1").value;
+			var input2 = document.getElementById("in2").value;
+			var result = input1/input2;
+			var n = result.toFixed(4);
+			document.getElementById("in1").value = n;
+		 }
+		 function negplus(){
+			if (toggle ==1){
+				document.getElementById("in1").value=document.getElementById("in1").value*(0-1);
+			}else {
+				document.getElementById("in2").value=document.getElementById("in2").value*(0-1);
+			}
+		 }
+		 function sqrt(){
+			var input1 = parseFloat(document.getElementById("in1").value);
+			var result = Math.sqrt(input1);
+			var n = result.toFixed(4);
+			document.getElementById("in1").value = n;
+		 }
+		 var toggle = 1;
+		function swit(){
+			if(toggle==1){
+				toggle = 0;
+				document.getElementById("in1").style.display="none";
+			}else{
+				toggle = 1;
+				document.getElementById("in1").style.display="block";
+			}
+		}
+  </script>
+  <body>
+	<body>
+
+                <div>
+
+                <input id="in1" type= "text1" value= " " />
+
+                <input id="in2" type= "text2" value= " " />
+
+                <button class="plus" type ="button" onclick="plus()">+</button>
+
+                <button class="minus" type ="button" onclick="minus()">-</button>
+
+                <button class= "one" type ="button" onclick="one()">1</button>
+
+                <button class= "two" type ="button" onclick="two()">2</button>
+
+                <button class= "three" type ="button" onclick="three()">3</button>
+
+                <button class= "four" type ="button" onclick="four()">4</button>
+
+                <button class= "five" type ="button" onclick="five()">5</button>
+
+                <button class= "six" type ="button" onclick="six()">6</button>
+
+                <button class= "seven" type ="button" onclick="seven()">7</button>
+
+                <button class= "eight" type ="button" onclick="eight()">8</button>
+
+                <button class= "nine" type ="button" onclick="nine()">9</button>
+
+                <button class= "zero" type ="button" onclick="zero()">0</button>
+
+                <button class= "clearz" type ="button" onclick="clearz()">c</button>
+
+                <button class= "decimal" type ="button" onclick="decimal()">.</button>
+
+                <button class="multi" type ="button" onclick="multi()">x</button>
+
+                <button class="div" type ="button" onclick="div()">/</button>
+
+                <button class="negplus" type ="button" onclick="negplus()">+/-</button>
+
+                <button class="equal" type ="button" onclick="swit()">switch</button>
+				<button class="sqrt" type="button" onclick="sqrt()">sqrt</button>
+
+                </div>
+  </body>
+
+</html>
